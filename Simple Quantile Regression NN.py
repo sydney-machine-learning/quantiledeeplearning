@@ -37,7 +37,7 @@ quantiles = [0.05, 0.25, 0.50, 0.75, 0.95]
 input_size = X_train.shape[1] # 5 features
 hidden_size = 64 # no. of neurons in hidden layer
 output_size = 5 # no. of quantiles = no. of output neurons
-learning_rate = 0.001
+learning_rate = 0.01
 num_epochs = 200
 
 model = MLP(input_size, hidden_size, output_size).double()
