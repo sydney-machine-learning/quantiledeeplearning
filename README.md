@@ -5,11 +5,11 @@ Please note that this project is in progress and workspace environment may chang
 
 Currently, there exists the following files & directories:
 
-1. `Data Understanding & Visualisation.ipynb`
+1. `Data_Exploration.ipynb`
 
 Data Exploration and visualisation of crypto dataset(s). 
 
-2. `Simple Quantile Regression NN.ipynb`
+2. `Simple_Quantile_Reg_NN.py`
 
 A workable python file involving some dataset (Bitcoin), very basic neural network and produces a plot along with some quantile. It can also predict the next value [5th, 25th, 50th, 75th, 95th] percentile, albeit with very low accuracy. Note that the code is very raw and no optimisation has been attempted yet.
 
