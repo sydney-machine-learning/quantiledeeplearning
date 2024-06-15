@@ -1,3 +1,9 @@
+# Week 3 Time Machine
+
+This is a separate branch from `main`. The purpose of this branch is to preserve a copy of the code from UNSW Term 2 2024 Week 3. It can be served as a checkpoint. By keeping a copy of the past, we can confidently edit files from the `main` branch knowing that there is a backup to fall back on.
+
+_____________________
+
 # quantiledeeplearning
 Quantile Deep learning models for multi-step ahead time series prediction.
 
