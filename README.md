@@ -11,9 +11,9 @@ This directory contains the following:
 
 Data Exploration and visualisation of crypto dataset(s). 
 
-2. [Simple_Quantile_Reg_NN.py](Simple_Quantile_Reg_NN.py)
+2. [Quantile_Regression_PyTorch](Quantile_Regression_PyTorch.py)
 
-A workable python file involving some dataset (Bitcoin), very basic neural network and produces a plot along with some quantile. It can also predict the next value [5th, 25th, 50th, 75th, 95th] percentile, albeit with very low accuracy. Note that the code is very raw and no optimisation has been attempted yet.
+A workable python file involving some dataset (Bitcoin), basic neural network (Linear) and produces a plot along with some quantile, albeit with very low accuracy. Note that the code is very raw and no optimisation has been attempted yet.
 
 3. [data](data/)
 
