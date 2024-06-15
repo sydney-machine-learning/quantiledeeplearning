@@ -17,7 +17,7 @@ A workable python file involving some dataset (Bitcoin), very basic neural netwo
 
 3. [data](data/)
 
-Directory containing crypto (Bitcoin, Ethereum) data. May have more datasets in the future (Sunspot, Mackey-Glass and Lorenz). The crypto dataset is obtained from
+Directory containing crypto (Bitcoin, Ethereum) data. May have more datasets in the future (Sunspot, Mackey-Glass and Lorenz). The crypto dataset is obtained from the [literature paper](https://arxiv.org/abs/2405.11431) by Wu et al.
 
 4. [images](images/)
 
