@@ -11,9 +11,9 @@ This directory contains the following:
 
 Data Exploration and visualisation of crypto dataset(s). 
 
-2. [Quantile_Regression_PyTorch](Quantile_Regression_PyTorch.py)
+2. [Quantile_Regression_PyTorch.ipynb](Quantile_Regression_PyTorch.ipynb)
 
-A workable python file involving some dataset (Bitcoin), basic neural network (Linear) and produces a plot along with some quantile, albeit with very low accuracy. Note that the code is very raw and no optimisation has been attempted yet.
+A workable python notebook involving some dataset (Bitcoin), basic neural network (Linear) and produces a plot along with some quantile, albeit with very low accuracy. Note that the code is very raw and no optimisation has been attempted yet. This is a rework from Week 3's [Simple_Quantile_Reg_NN.py](Wk3_Time_Machine/Simple_Quantile_Reg_NN.py).
 
 3. [data](data/)
 
