@@ -13,7 +13,7 @@ Data Exploration and visualisation of crypto dataset(s).
 
 2. [Quantile_Regression_PyTorch.ipynb](Quantile_Regression_PyTorch.ipynb)
 
-A workable python notebook involving some dataset (Bitcoin), basic neural network (Linear) and produces a plot along with some quantile, albeit with very low accuracy. Note that the code is very raw and no optimisation has been attempted yet. This is a rework from Week 3's [Simple_Quantile_Reg_NN.py](Wk3_Time_Machine/Simple_Quantile_Reg_NN.py).
+A workable python notebook involving some dataset (Bitcoin), basic neural network (Linear) and produces a plot along with some quantile, albeit with very low accuracy. Note that the code is very raw and no optimisation has been attempted yet. This is a rework from Week 3's [Simple_Quantile_Reg_NN.py](https://github.com/sydney-machine-learning/quantiledeeplearning/blob/a092b0d9f47d421cad9c6cba221d43eea0d54472/Simple_Quantile_Reg_NN.py).
 
 3. [data](data/)
 
