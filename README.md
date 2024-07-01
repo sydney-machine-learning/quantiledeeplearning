@@ -7,13 +7,19 @@ Please note that this project is in progress and workspace environment may chang
 
 This directory contains the following:
 
-1. [Data_Exploration.ipynb](Data_Exploration.ipynb)
+1. [Linear_Regression.ipynb](Linear_Regression.ipynb)
 
-Data Exploration and visualisation of crypto dataset(s). 
+Multi-step Ahead Linear Regression models on crypto datasets. The notebook contains univariate linear regression, multivariate linear regression and their respective quantile versions. 
 
-2. [Quantile_Regression_PyTorch.ipynb](Quantile_Regression_PyTorch.ipynb)
+Data values have been shuffled, normalised and split into training and testing sets (80%/20%). A linear model was fitted and their average Root Mean Squared Error (RMSE) across multi-steps predictions were calculated. Furthermore, the RMSE for each time step were also calculated to demonstrate lower accuracy for further predictions. Other model performance metrics such as Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) were used after inverse transforming the prediction values. This was done so that readers can be able to interpret price predictions and errors. Both the average MAE and MAPE value across multi-step predictions and their average value in respective time steps were calculated to show that prediction accuracy drops with future time steps. 
 
-A workable python notebook involving some dataset (Bitcoin), basic neural network (Linear) and produces a plot along with some quantile, albeit with very low accuracy. Note that the code is very raw and no optimisation has been attempted yet. This is a rework from Week 3's [Simple_Quantile_Reg_NN.py](https://github.com/sydney-machine-learning/quantiledeeplearning/blob/a092b0d9f47d421cad9c6cba221d43eea0d54472/Simple_Quantile_Reg_NN.py), with more logical data processing and model training steps.
+Most of the models were repeated 30 times for more reliable results. The multivariate quantile linear regression model were only repeated 10 times due to the more computationally expensive nature of the experiment. These models were applied on [Bitcoin](data/coin_Bitcoin.csv) and [Ethereum](data/coin_Ethereum.csv) datasets.
+
+2. [NN_Univariate.ipynb](NN_Univariate.ipynb)
+
+Multi-step Ahead Prediction on crypto datasets using [best performing](https://arxiv.org/abs/2405.11431) neural networks. The notebook contains classic neural network implementation for univariate data regression as well as quantile deep learning models for multi-step ahead time series prediction. The time series are divided into an input window and output window. The goal of the model is to take input data and predict output data. Due to the nature of our project being multi-step ahead, output window should be greater than 1.
+
+Similar to [Linear Regression](Linear_Regression.ipynb), the data handling involved shuffling, normalising and train test splitting (80%/20%). The best two deep learning models for Bitcoin datasets were Bi-Directional Long Short Term Memory Model (BD-LSTM) and Convolutional Long Short Term Memory Model (Conv-LSTM). We applied those two deep learning models as well as their quantile versions to get prediction RMSE across individual time steps to showcase a decrease in prediction accuracy with future time steps. In addition, we inverse transformed the prediction values to get a visualisation on price prediction and errors. MAE and MAPE for each time steps were also calculated to aid result interpretation. The best two deep learning models for the Ethereum datasets were Long Short Term Memory (LSTM) model and BD-LSTM. We implemented the corresponding models and their quantile versions and used the same model evaluation metrics.
 
 3. [data](data/)
 
