@@ -23,7 +23,7 @@ Directory which contains python notebooks of various models and types of dataset
 >
 > Multi-step Ahead Prediction on crypto datasets using [best performing](https://arxiv.org/abs/2405.11431) neural networks. The notebook contains classic neural network implementation for univariate data regression as well as quantile deep learning models for multi-step ahead time series prediction. The time series are divided into an input window and output window. The goal of the model is to take input data and predict output data. Due to the nature of our project being multi-step ahead, output window should be greater than 1.
 >
-> Similar to [Linear Regression](Linear_Regression.ipynb), the data handling involved shuffling, normalising and train test splitting (80%/20%). The best two deep learning models for Bitcoin datasets were Bi-Directional Long Short Term Memory Model (BD-LSTM) and Convolutional Long Short Term Memory Model (Conv-LSTM). We applied those two deep learning models as well as their quantile versions to get prediction RMSE across individual time steps to showcase a decrease in prediction accuracy with future time steps. In addition, we inverse transformed the prediction values to get a visualisation on price prediction and errors. MAE and MAPE for each time steps were also calculated to aid result interpretation. The best two deep learning models for the Ethereum datasets were Long Short Term Memory (LSTM) model and BD-LSTM. We implemented the corresponding models and their quantile versions and used the same model evaluation metrics.
+> Similar to [Linear Regression](Python_Notebooks/Linear_Regression.ipynb), the data handling involved shuffling, normalising and train test splitting (80%/20%). The best two deep learning models for Bitcoin datasets were Bi-Directional Long Short Term Memory Model (BD-LSTM) and Convolutional Long Short Term Memory Model (Conv-LSTM). We applied those two deep learning models as well as their quantile versions to get prediction RMSE across individual time steps to showcase a decrease in prediction accuracy with future time steps. In addition, we inverse transformed the prediction values to get a visualisation on price prediction and errors. MAE and MAPE for each time steps were also calculated to aid result interpretation. The best two deep learning models for the Ethereum datasets were Long Short Term Memory (LSTM) model and BD-LSTM. We implemented the corresponding models and their quantile versions and used the same model evaluation metrics.
 >
 > c. [NN_Multivariate.ipynb](Python_Notebooks/DLNN_Multivariate.ipynb)
 >
@@ -31,7 +31,7 @@ Directory which contains python notebooks of various models and types of dataset
 
 3. [data](data/)
 
-Directory containing crypto (Bitcoin, Ethereum) data. May have more datasets in the future (Sunspot, Mackey-Glass and Lorenz). The crypto dataset is obtained from the [literature paper](https://arxiv.org/abs/2405.11431) by Wu et al.
+Directory containing crypto (Bitcoin, Ethereum) data. The crypto dataset is obtained from the [Github repository](https://github.com/sydney-machine-learning/deeplearning-crypto) by Wu et al. May have more datasets in the future (Sunspot, Mackey-Glass and Lorenz). 
 
 4. [images](images/)
 
