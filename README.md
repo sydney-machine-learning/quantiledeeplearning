@@ -1,5 +1,7 @@
 # quantiledeeplearning
 
+> This branch serves as an archive for Postgraduate Coursework Repository format (UNSW), as we will be updating the repository for Applied Soft Computing in the main branch.
+
 Repository for Quantile Deep learning models for multi-step ahead time series prediction. 
 
 This project is done as a capstone course in the University of New South Wales (UNSW) School of Mathematics and Statistics Masters Program. Our group consists of Jimmy Cheung, Smruthi Rangarajan, Amelia Maddocks and Xizhe Chen. Many thanks to our supervisor Rohitash Chandra for his continuous guidance throughout the project.
