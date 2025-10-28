@@ -1,0 +1,17 @@
+# Core numerical + data libraries
+numpy>=1.24,<2          # NumPy 2.x breaks PyTorch as of Oct 2025
+pandas>=2.0,<3          # Pandas 2.x stable, 3.x not released yet
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+statsmodels>=0.14,<1
+
+# Deep learning frameworks
+torch>=2.2,<2.5         # 2.2–2.4 compatible with NumPy 1.x
+
+# Visualization
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+
+# Specialized or extra utilities
+tqdm>=4.66,<5
+reservoirpy>=0.4,<1
